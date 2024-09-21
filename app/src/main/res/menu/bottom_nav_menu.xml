@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_icon"
+        android:title="Автомобиль" />
+    <item
+        android:id="@+id/navigation_led"
+        android:icon="@drawable/led_icon"
+        android:title="Подсветки" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_icon"
+        android:title="Настройки" />
+</menu>

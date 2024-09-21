@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MANYA</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="player_not_active_artist">Медиаплеер</string>
+    <string name="player_not_active_title">неактивен</string>
+
+    <string name="confirm">Применить</string>
+    <string name="cancel">Отменить</string>
+
+    <string name="player_not_permission_artist">Необходимо разрешение</string>
+    <string name="player_not_permission_title">для просмотра уведомлений</string>
+    <string-array name="bt_default_list">
+        <item>Не предоставлено разрешение</item>
+    </string-array>
+</resources>

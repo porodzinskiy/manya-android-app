@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#FF000000"
+    tools:context=".HomeFragment">
+
+
+    <FrameLayout
+        android:id="@+id/car_frame_layout"
+        android:layout_width="328dp"
+        android:layout_height="328dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/mazda_car_non_changeble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mazda_car_non_chanagable_without_windows"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/mazda_car_changeble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mazda_car_changable" />
+    </FrameLayout>
+</FrameLayout>
